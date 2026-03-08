@@ -1,0 +1,19 @@
+id = 
+ 
+
+    index {
+        index_main
+        index_nav
+        index_main_div
+        index_footer
+
+}
+
+
+class =
+
+
+    index {
+        
+
+    }
