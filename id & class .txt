@@ -6,6 +6,8 @@ id =
         index_nav
         index_main_div
         index_footer
+        index_nav_left
+        index_nav_right
 
 }
 
@@ -17,3 +19,17 @@ class =
         
 
     }
+
+
+color =
+
+    #013334
+    #006766
+    #009999
+    #00CDCC
+    #01FFFF
+
+
+
+    
+
