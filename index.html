@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Welcome to Expense Tracker </title>
 </head>
+
 <body>
 
     <main id="index_main">
@@ -29,9 +34,11 @@
 
         <div id="index_main_div">
             <div id="index_main_div_left">
-                <div class="index_main_div_left_format">Hii , Welcome to <span>Hisab Rakho 2.0</span></div>
+                <div class="index_main_div_left_format">Hii , Welcome to <span
+                        id="index_main_div_left_format_span">Hisab Rakho 2.0</span></div>
 
-                <div class="index_main_div_left_format">It helps to keep the records of your <span>daily expenses</span></div> 
+                <div class="index_main_div_left_format">It helps to keep the records of your <span>daily expenses</span>
+                </div>
             </div>
 
             <div id="index_main_div_right">
@@ -43,32 +50,48 @@
                         <div id="index_main_div_right_profile_boxes_cards">
                             <div class="index_main_div_right_profile_boxes_card">
                                 <div class="index_main_div_right_profile_boxes_card_left">
-                                    <span class="index_main_div_right_profile_boxes_card_left_heading">TOTAL EXPENSE</span>
-                                    
+                                    <span class="index_main_div_right_profile_boxes_card_left_heading">CURRENT
+                                        BALANCE</span>
+                                    <span id="index_main_div_right_profile_boxes_card_left_heading_CB"
+                                        class="index_main_div_right_profile_boxes_card_left_img"><i
+                                            class="fa-solid fa-indian-rupee-sign"
+                                            style="color: rgb(4, 60, 254);"></i></span>
+
                                 </div>
                                 <div class="index_main_div_right_profile_boxes_card_right">
-                                    <span class="index_main_div_right_profile_boxes_card_right_value">250000</span>
-                                    <span id="index_main_div_right_profile_boxes_card_left_heading_TE" class="index_main_div_right_profile_boxes_card_right_img"></span>
+                                    <span class="index_main_div_right_profile_boxes_card_right_value">25000000000</span>
+                                    <span id="index_main_div_right_profile_boxes_card_right_heading_CB"
+                                        class="index_main_div_right_profile_boxes_card_right_img"></span>
                                 </div>
                             </div>
                             <div class="index_main_div_right_profile_boxes_card">
                                 <div class="index_main_div_right_profile_boxes_card_left">
-                                    <span class="index_main_div_right_profile_boxes_card_left_heading">MONTHLY EXPENSE</span>
-                                    
+                                    <span class="index_main_div_right_profile_boxes_card_left_heading">MONTHLY
+                                        EXPENSE</span>
+                                    <span id="index_main_div_right_profile_boxes_card_left_heading_ME"
+                                        class="index_main_div_right_profile_boxes_card_left_img"><i
+                                            class="fa-solid fa-arrow-down" style="color: rgb(254, 4, 4);"></i></span>
+
                                 </div>
                                 <div class="index_main_div_right_profile_boxes_card_right">
                                     <span class="index_main_div_right_profile_boxes_card_right_value">250000</span>
-                                    <span id="index_main_div_right_profile_boxes_card_left_heading_ME" class="index_main_div_right_profile_boxes_card_right_img"></span>
+                                    <span id="index_main_div_right_profile_boxes_card_right_heading_ME"
+                                        class="index_main_div_right_profile_boxes_card_right_img"></span>
                                 </div>
                             </div>
                             <div class="index_main_div_right_profile_boxes_card">
                                 <div class="index_main_div_right_profile_boxes_card_left">
-                                    <span class="index_main_div_right_profile_boxes_card_left_heading">MONTHLY INCOME</span>
-                                    
+                                    <span class="index_main_div_right_profile_boxes_card_left_heading">MONTHLY
+                                        INCOME</span>
+                                    <span id="index_main_div_right_profile_boxes_card_left_heading_MI"
+                                        class="index_main_div_right_profile_boxes_card_left_img"><i
+                                            class="fa-solid fa-arrow-up" style="color: rgb(2, 141, 58);"></i></span>
+
                                 </div>
                                 <div class="index_main_div_right_profile_boxes_card_right">
                                     <span class="index_main_div_right_profile_boxes_card_right_value">250000</span>
-                                    <span id="index_main_div_right_profile_boxes_card_left_heading_MI" class="index_main_div_right_profile_boxes_card_right_img"></span>
+                                    <span id="index_main_div_right_profile_boxes_card_right_heading_MI"
+                                        class="index_main_div_right_profile_boxes_card_right_img"></span>
                                 </div>
                             </div>
                         </div>
@@ -78,11 +101,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
         <div id="index_footer"></div>
     </main>
-    
+
 </body>
+
 </html>
