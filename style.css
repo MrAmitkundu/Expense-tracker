@@ -404,12 +404,23 @@ body {
 .label_name{
     margin-top: 5vh;
     font-size: 2vw;
+    color: beige;
 }
 
 .form_placeholder{
     height: 3vh;
     border-radius: 5px;
+    font-size: 1vw;
 }
+
+#add_textarea{
+    height: 12vh;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+  }
 
 #add_div_button{
     display: flex;

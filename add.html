@@ -37,23 +37,23 @@
 
                 <form action="">
 
-                    <label for="" id="add_label_date" class="label_name">Choose The Date</label>
+                    <label for="" id="add_label_date" class="label_name required">Choose The Date</label>
                     <input type="date" id="add_input_date" class="form_placeholder">
 
-                    <label for="" id="add_label_select" class="label_name">Choose From The List</label>
+                    <label for="" id="add_label_select" class="label_name required">Choose From The List</label>
                     <select name="" id="add_select" class="form_placeholder">
-                        <option value="">Money Withdrawl</option>
-                        <option value="">Vegetables</option>
-                        <option value="">Grocery</option>
-                        <option value="">Family expense</option>
-                        <option value="">Others</option>
+                        <option value="Money Withdrawl">Money Withdrawl</option>
+                        <option value="Vegetables">Vegetables</option>
+                        <option value="Grocery">Grocery</option>
+                        <option value="Family expense">Family expense</option>
+                        <option value="Others">Others</option>
                     </select>
 
-                    <label for="" id="add_label_amount" class="label_name">Enter The Amount</label>
+                    <label for="" id="add_label_amount" class="label_name required">Enter The Amount</label>
                     <input type="number" id="add_input_amount" class="form_placeholder">
 
                     <label for="" id="add_label_textarea" class="label_name">Enter The Description</label>
-                    <textarea name="" id="add_textarea" rows="5" placeholder="Enter The description here "></textarea>
+                    <textarea name="" id="add_textarea"  placeholder="Enter The description here " class="form_placeholder" rows="5"></textarea>
 
                     
                 </form>
@@ -66,6 +66,8 @@
 
         <div id="index_footer"></div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
